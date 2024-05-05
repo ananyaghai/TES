@@ -413,6 +413,12 @@ a, button {
 
 }
 
+@media only screen and (max-width: 599px) {
+    #portfolio_section .vision-content, .title{
+        display: none;
+    }
+}
+
 /*POPULAR SUBJECTS*/
 .cbox {
 	position: relative;
