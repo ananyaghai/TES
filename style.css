@@ -742,9 +742,10 @@ form textarea {
 	text-align: center;
 }
 .identity .rating img {
-	width: 12px;
-	height: 12px;
-	margin-right: 5px;
+    width: 70px;
+    height: 70px;
+    margin-right: 5px;
+    margin-top: 5px;
 }
 .rev-cont {
 	overflow: hidden;
