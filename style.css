@@ -119,6 +119,21 @@ nav ul li a:hover {
     transition: all 1s;
 }
 
+@media only screen and (min-width: 320px) and (max-width: 425px) {
+    .logo img {
+        width: 100px;
+        margin-left: -70px;
+        margin-bottom: -10px;
+    }
+
+
+	.svg-image img {
+		width: 60% !important;
+		margin: 20px;
+		align-self: center !important;
+	}
+}
+
 a, button {
 	font-family: 'Raleway';
     font-weight: 400;
