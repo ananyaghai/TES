@@ -132,6 +132,14 @@ nav ul li a:hover {
 		margin: 20px;
 		align-self: center !important;
 	}
+
+	.rev-cont #content {
+    padding: 10px;
+    font-size: 0.45em;
+    color: #2E3D49;
+    /* line-height: 22px; */
+    /* text-align: justify; */
+}
 }
 
 a, button {
