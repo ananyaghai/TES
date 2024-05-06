@@ -133,13 +133,32 @@ nav ul li a:hover {
 		align-self: center !important;
 	}
 
+	.about-content .side-image img {
+		width: 107%;
+		border-radius: 5px;
+		margin-right: 191px;
+		margin-left: -18px;
+	}
+
 	.rev-cont #content {
-    padding: 10px;
-    font-size: 0.45em;
-    color: #2E3D49;
-    /* line-height: 22px; */
-    /* text-align: justify; */
-}
+		padding: 10px;
+		font-size: .45em;
+		color: #2E3D49;
+		/* line-height: 22px; */
+		/* text-align: justify; */
+	}
+	.cc form input {
+		padding: 15px;
+		margin: 10px;
+		border-radius: 5px;
+		box-shadow: inset 0 0 5px lightgray;
+		border: 1px solid rgba(0, 0, 0, 0.2);
+		outline: none;
+		color: #2E3D49;
+		font-weight: 600;
+		width: 140px !important;
+	}
+	
 }
 
 a, button {
@@ -344,6 +363,12 @@ a, button {
     font-family: 'Raleway';
 }
 
+
+@media only screen and (max-width: 599px) {
+    #portfolio_section .vision-content, .title{
+        display: none;
+    }
+}
 /*Title*/
 .title {
 	margin-top: 85px;
@@ -419,12 +444,6 @@ a, button {
     position: absolute;
     font-size: 1.1em;
 
-}
-
-@media only screen and (max-width: 599px) {
-    #portfolio_section .vision-content, .title{
-        display: none;
-    }
 }
 
 /*POPULAR SUBJECTS*/
@@ -624,9 +643,9 @@ a, button {
 	justify-content: space-around;
 }
 .cc {
-	height: 400px;
-	width: 400px;
-	height: 500px;
+;
+	width: 388px;
+	height: 551px;
 	border-radius: 10px;
 	justify-content: center;
 	box-shadow: 1px 1px 20px rgba(0,0,0,0.4);
@@ -862,7 +881,7 @@ form textarea {
 /*FOOTER*/
 footer {
 	color: #E5E8EF;
-	background: #000D;
+    background: #43b4c6;
 	padding: 50px 0; 
 }
 footer .footer-container {
@@ -881,10 +900,11 @@ footer .logo {
 	width: 180px;
 	color: #fff;
 }
-footer .social-media a{
+footer .social-media {
 	margin-right: 10px;
 	font-size: 22px;
 	text-decoration: none;
+	display:flex !important;
 }
 footer .right-col h1{
 	font-size: 26px;
@@ -936,6 +956,31 @@ footer .btn:hover {
 }
 
 /*PROPERTIES FOR MAKING WEBSITE RESPONSIVE*/
+
+
+@media (min-width :320) and (max-width :455) {
+	
+	.quote p {
+		margin-top: 5px;
+		font-size: 30px;
+		align-self: center !important;
+	}
+
+	.svg-image img {
+		width: 60%;
+		margin: 20px;
+		align-self: center !important;
+	}
+
+	.rev-cont #content {
+		padding: 10px;
+		font-size: 0.45em;
+		color: #2E3D49;
+		/* line-height: 22px; */
+		/* text-align: justify; */
+	}
+}
+
 @media screen and (max-width: 960px) {
 	.footer-container {
 		max-width: 600px;
