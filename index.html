@@ -262,17 +262,26 @@
 			<div class="back-contact">
 				<div class="cc">
 				<form action="https://formspree.io/f/xwkgyovq" method="post">
-					<label>First Name <span class="imp">*</span></label><label style="margin-left: 185px">Last Name <span class="imp">*</span></label><br>
-					<center>
-					<input type="text" name="First Name" style="margin-right: 10px; width: 175px" required="required"><input type="text" name="Last Name" style="width: 175px" required="required"><br>
-					</center>
+					<div style="display: flex;">
+						<div style="flex: 1;">
+							<label>First Name <span class="imp">*</span></label><br>
+							<input type="text" name="First Name" style="width: 100%;" required="required">
+						</div>
+						<div style="flex: 1; margin-left: 10px;">
+							<label>Last Name <span class="imp">*</span></label><br>
+							<input type="text" name="Last Name" style="width: 100%;" required="required">
+						</div>
+					</div>
 					<label>Email <span class="imp">*</span></label><br>
-					<input type="email" name="Email" style="width: 100%" required="required"><br>
+					<input type="email" name="Email" style="width: 100%;" required="required"><br>
 					<label>Time Zone<span class="imp">*</span></label><br>
-					<input type="text" name="Timezone" style="width: 100%" required="required"><br>
+					<input type="text" name="Timezone" style="width: 100%;" required="required"><br>
 					<label>Additional Details</label><br>
-					<textarea placeholder ="Subject,grade and curriculum"name="Details" required="required"></textarea><br>
-					<button type="submit" id="csubmit">Submit</button>
+					<textarea placeholder="Subject, grade and curriculum" name="Details" style="width: 100%;" required="required"></textarea><br>
+					<button type="submit" id="csubmit" style="margin-top: 10px;">Submit</button>
+					
+					
+
 				</form>
 				</div>
 			</div>
@@ -287,13 +296,13 @@
 	
 		<div class="feedbox">
 			<div class="feed">
-				<form action="mailto:tes@theexcitedstates.in" method="post" enctype="text/plain">
+				<form action="https://formspree.io/f/mnqernkg" method="post">
 					<label>Your Name</label><br>
-					<input type="text" name="" class="fname" required="required"><br>
+					<input type="text" name="Name" class="fname" required="required"><br>
 					<label>Email</label><br>
-					<input type="email" required="required"><br>
+					<input type="email" name="Email" required="required"><br>
 					<label>Linkedin Profile</label><br>
-					<input type="link" required="required"><br>
+					<input type="link" name="LinkedIn Profile" required="required"><br>
 	
 					<button type="submit" id="csubmit">Submit</button>
 				</form>
