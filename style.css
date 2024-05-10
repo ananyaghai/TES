@@ -501,7 +501,7 @@ a, button {
 .totalcard .card {
 	margin: 50px;
 	width: 300px;
-	border-radius: 10px;
+	border-radius: 5px;
 	background: #fff;
 }
 .totalcard .card{
@@ -761,8 +761,8 @@ form textarea {
 	text-align: center;
 }
 .identity .rating img {
-    width: 70px;
-    height: 70px;
+    width: 100px;
+    height: 80px;
     margin-right: 5px;
     margin-top: 5px;
 }
